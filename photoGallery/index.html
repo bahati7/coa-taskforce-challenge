@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/photoGallery/css/styles.css">
-    <title>Interactive Photo Gallery</title>
-
-</head>
-<body>
-  <div class="gallery">
-    <img src="./img/fox.png" alt="Image 1">
-    <img src="./img/whale.png" alt="Image 2">
-    <img src="./img/baboon.png" alt="Image 3">
-    <img src="./img/deer.png" alt="Image 4">
-  </div>
-    
-    <script src="/photoGallery/js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Four Image Gallery with Text Overlays</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="image-overlay">
+        <img src="./img/fox.png" alt="Image 1" />
+        <div class="image-text">
+          <div class="div-text-name">
+            fennec
+            <br />
+            fox
+          </div>
+          <div class="div-text-loc">india</div>
+          <!-- <div class="div-text-more">more</div> -->
+        </div>
+        <div class="div-text-more">more</div>
+      </div>
+      <div class="image-overlay">
+        <img src="./img/whale.png" alt="Image 2" />
+        <div class="image-text">
+          <div class="div-text-name">
+            humpback
+            <br />
+            whale
+          </div>
+          <div class="div-text-loc">south africa</div>
+        </div>
+      </div>
+      <div class="image-overlay">
+        <img src="./img/baboon.png" alt="Image 3" />
+        <div class="image-text">
+          <div class="div-text-name">
+            common brown
+            <br />
+            baboon
+          </div>
+          <div class="div-text-loc">south africa</div>
+        </div>
+      </div>
+      <div class="image-overlay">
+        <img src="./img/deer.png" alt="Image 4" />
+        <div class="image-text">
+          <div class="div-text-name">
+            spotted
+            <br />
+            deer
+          </div>
+          <div class="div-text-loc">amazon</div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
