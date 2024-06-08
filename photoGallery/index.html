@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Four Image Gallery with Text Overlays</title>
   </head>
   <body>
     <div class="gallery">
-      <div class="image-overlay">
-        <img src="./img/fox.png" alt="Image 1" />
+      <div class="image-overlay fox">
+        <img src="./img/fox.png" alt="Fox" />
         <div class="image-text">
           <div class="div-text-name">
             fennec
@@ -17,12 +18,12 @@
             fox
           </div>
           <div class="div-text-loc">india</div>
-          <!-- <div class="div-text-more">more</div> -->
+          <div class="btn fox-btn-more">Know more<i class="fa-solid fa-arrow-right" style="color: #60e9fb"></i> </div>
         </div>
-        <div class="div-text-more">more</div>
+     
       </div>
-      <div class="image-overlay">
-        <img src="./img/whale.png" alt="Image 2" />
+      <div class="image-overlay whale">
+        <img src="./img/whale.png" alt="whale" />
         <div class="image-text">
           <div class="div-text-name">
             humpback
@@ -30,10 +31,12 @@
             whale
           </div>
           <div class="div-text-loc">south africa</div>
+          <div class="btn whale-btn-more">Know more <i class="fa-solid fa-arrow-right" style="color: #60e9fb"></i></div>
+          
         </div>
       </div>
-      <div class="image-overlay">
-        <img src="./img/baboon.png" alt="Image 3" />
+      <div class="image-overlay baboon">
+        <img src="./img/baboon.png" alt="baboon" />
         <div class="image-text">
           <div class="div-text-name">
             common brown
@@ -41,10 +44,11 @@
             baboon
           </div>
           <div class="div-text-loc">south africa</div>
+          <div class="btn baboon-btn-more">Know more <i class="fa-solid fa-arrow-right" style="color: #60e9fb"></i></div>
         </div>
       </div>
-      <div class="image-overlay">
-        <img src="./img/deer.png" alt="Image 4" />
+      <div class="image-overlay deer">
+        <img src="./img/deer.png" alt="deer" />
         <div class="image-text">
           <div class="div-text-name">
             spotted
@@ -52,9 +56,11 @@
             deer
           </div>
           <div class="div-text-loc">amazon</div>
+          <div class="btn deer-btn-more">Know more <i class="fa-solid fa-arrow-right" style="color: #60e9fb"></i></div>
         </div>
       </div>
     </div>
     <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/ed83ceb9af.js" crossorigin="anonymous"></script>
   </body>
 </html>
