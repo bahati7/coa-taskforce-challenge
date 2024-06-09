@@ -6,6 +6,7 @@ This project showcases three functionalities:
 An HTML and JavaScript combination to create an image gallery with text overlays that appear on hover.
 figma link: https://www.figma.com/design/XF6xlvvHBv12WFveDjVoso/COA-Take-home-Challenge?node-id=1-524&t=PGqo0W8QsSrmdpMh-0
 
+<img width="942" alt="screenshot" src="https://github.com/bahati7/coa-taskforce-challenge/assets/14108202/4c9d7c1c-838e-435a-9582-ab9e769461d6">
 
 ## Subarray Sum: 
 Given an array of integers and a target sum, determine if there exists a contiguous
